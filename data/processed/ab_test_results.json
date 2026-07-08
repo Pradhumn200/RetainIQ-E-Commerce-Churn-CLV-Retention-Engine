@@ -1,0 +1,20 @@
+{
+    "n_treatment": 13819,
+    "n_control": 13695,
+    "retained_treatment": 4141,
+    "retained_control": 2711,
+    "rate_treatment": 0.29965988855923004,
+    "rate_control": 0.19795545819642205,
+    "lift": 0.10170443036280799,
+    "z_stat": 19.504786871104976,
+    "p_value": 9.997296310930239e-85,
+    "ci_lower": 0.09156158060571543,
+    "ci_upper": 0.11184728011990056,
+    "cost_per_cust": 5.0,
+    "total_cost": 69095.0,
+    "avg_clv": 169.7248103077147,
+    "incremental_saved": 1405.453523183644,
+    "clv_protected": 238540.33261865328,
+    "net_profit": 169445.33261865328,
+    "roi": 245.2353030156354
+}

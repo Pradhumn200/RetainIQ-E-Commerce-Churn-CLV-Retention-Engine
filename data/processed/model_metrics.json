@@ -1,0 +1,79 @@
+{
+    "lr_auc": 0.5971410880211155,
+    "rf_auc": 0.6877428286694924,
+    "selected_rf_threshold": 0.5932342397232094,
+    "lr_coefs": [
+        {
+            "Feature": "aov_trend",
+            "Coefficient": -22.693296791333687
+        },
+        {
+            "Feature": "frequency",
+            "Coefficient": -1.173273624906737
+        },
+        {
+            "Feature": "category_diversity_trend",
+            "Coefficient": 1.1130782960616572
+        },
+        {
+            "Feature": "purchase_freq_trend",
+            "Coefficient": 0.1473042377632233
+        },
+        {
+            "Feature": "monetary",
+            "Coefficient": 0.053120453309673556
+        },
+        {
+            "Feature": "discount_dependency",
+            "Coefficient": 0.050649186541802727
+        }
+    ],
+    "rf_importances": [
+        {
+            "Feature": "frequency",
+            "Importance": 0.4796528334323723
+        },
+        {
+            "Feature": "aov_trend",
+            "Importance": 0.22132502192868475
+        },
+        {
+            "Feature": "category_diversity_trend",
+            "Importance": 0.14379676511959405
+        },
+        {
+            "Feature": "purchase_freq_trend",
+            "Importance": 0.13048824460242664
+        },
+        {
+            "Feature": "monetary",
+            "Importance": 0.023624101476268023
+        },
+        {
+            "Feature": "discount_dependency",
+            "Importance": 0.001113033440654293
+        }
+    ],
+    "lr_confusion_matrix": [
+        [
+            69,
+            172
+        ],
+        [
+            108,
+            9381
+        ]
+    ],
+    "rf_confusion_matrix": [
+        [
+            117,
+            124
+        ],
+        [
+            1890,
+            7599
+        ]
+    ],
+    "test_size": 9730,
+    "train_size": 55525
+}

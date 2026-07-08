@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Data
+data/raw/
+data/processed/olist.db
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
